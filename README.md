@@ -9,7 +9,7 @@ Car-Dekho is a Indian second hand car selling company.CarDekho.com is India's le
 Every passing day we can see that the car market is increasing rapidly and that brings us to a door where many people are buying and selling the cars in the market, so to make this process more fluid and with a better market view, I am proposing a model which will take particular information related to the car and will predict the selling price. This will help to get a better view while buying and selling cars.
 
 ## Predicting Description:
-I am predicting the selling price of the car based on various features of the cars including the present price of the cars, I will be using Linear Regression for building The model.
+I am predicting the selling price of the car based on various features of the cars, I will be using Linear Regression for building The model.
 
 ## Data Description:
 The dataset is from Cardekho.com, this dataset contains information about cars listed on the website cardekho.com.
@@ -23,7 +23,11 @@ Year : This column represents the year in which the car was bought.
 
 Selling_Price : This column represents the price the owner wants to sell the car at.
 
-Present_Price : This is the present price of the car.
+max_power : This column represents the maximum power of the car.
+
+mileage : It represents the mileage of the car.
+
+engine : It represents the engine of the car.
 
 Kms_Driven : This is the distance completed by the car in km.
 
@@ -34,3 +38,5 @@ Seller_Type : Defines whether the seller is a dealer or an individual.
 Transmission : Defines whether the car is manual or automatic.
 
 Owner : Defines the number of owners the car has previously had.
+
+seats : Defines how many seats in cars.
